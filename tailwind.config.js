@@ -4,17 +4,17 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     letterSpacing: {
-      widest: '0.3em',
-     },
+      widest: "0.3em",
+    },
     extend: {
       keyframes: {
         fadeIn: {
-          '0%': { opacity: 0 },
-          '100%': { opacity: 1 },
-        }
+          "0%": { opacity: 0 },
+          "100%": { opacity: 1 },
+        },
       },
       animation: {
-        fadeIn: 'fadeIn 0.5s forwards',
+        fadeIn: "fadeIn 0.5s forwards",
       },
       fontFamily: {
         Josefin: "Josefin Sans, sans-serif",
@@ -23,7 +23,7 @@ module.exports = {
   },
   variants: {
     extend: {},
-    animation: ['responsive', 'motion-safe', 'motion-reduce']
+    animation: ["responsive", "motion-safe", "motion-reduce"],
   },
   plugins: [],
 };
