@@ -1,13 +1,12 @@
 import { Header } from "../layout/Header"
 
-export const Layout = ({Children}) => {
+export const Layout = ({children}) => {
 	return (
 		<>
 		<Header />
 		<div>
-			{Children}
+			{children}
 		</div>
-			
 		</>
 	)
 }
