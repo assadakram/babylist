@@ -1,4 +1,4 @@
-export const Cards = () => {
+export function Cards() {
   return (
     <div>
       <div>
@@ -32,4 +32,4 @@ export const Cards = () => {
       </div>
     </div>
   );
-};
+}

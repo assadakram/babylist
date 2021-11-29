@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export const Header = () => {
+export function Header() {
   return (
     <>
       <div className="inline-flex w-full h-16 justify-between bg-white">
@@ -15,4 +15,4 @@ export const Header = () => {
       </div>
     </>
   );
-};
+}
