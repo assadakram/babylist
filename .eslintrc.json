@@ -1,3 +1,10 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": ["next/core-web-vitals", "prettier"],
+  "rules": {
+    "curly": "warn",
+    "prefer-object-spread": "warn",
+    "react/no-unescaped-entities": 0,
+    "react/function-component-definition": ["warn"],
+    "no-var": "error"
+  }
 }

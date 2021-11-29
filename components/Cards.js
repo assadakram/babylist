@@ -1,4 +1,4 @@
-export const Cards = () => {
+export function Cards() {
   return (
     <div className="flex flex-col place-items-center text-center ">
       <div className="py-14">
@@ -44,4 +44,4 @@ export const Cards = () => {
       </div>
     </div>
   );
-};
+}
