@@ -4,7 +4,7 @@ export function Cards() {
       <div className="py-14">
         <h2 className=" font-bold text-5xl">OK, let's set up your registry.</h2>
       </div>
-      <div className="bg-gray-50 py-5">
+      <div className="bg-gray-50 py-5 animate-fadeIn">
         <label className=" text-sm font-medium  font-Josefin  uppercase  tracking-widest  ">
           What's the occasion?
         </label>
