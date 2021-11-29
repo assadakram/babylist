@@ -19,7 +19,7 @@ export function Header() {
           </Link>
         </div>
         <div>
-          <Link>
+          <Link href="/">
             <a className=" text-sm hover:border-b-2 transition duration-300 hover:border-gray-400 h-full py-5 font-semibold mr-14 font-Josefin hidden md:block cursor-pointer uppercase  tracking-widest ">
               Log in
             </a>
