@@ -9,10 +9,6 @@ export default function Home() {
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-<<<<<<< HEAD
-      <Layout></Layout>
-    </>
-=======
 
         <Layout>
           <div>
@@ -20,6 +16,5 @@ export default function Home() {
           </div>
         </Layout>
     </div>
->>>>>>> 9a5e054dff89356591022dc97b9526d4da74cd3a
   );
 }
