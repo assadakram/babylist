@@ -31,12 +31,11 @@ export function Header() {
      {state && (
       <div className={`md:hidden ${state ? 'shadow-lg' : ''} `} id="mobile-menu">
         <div className="px-2 pt-2 pb-3 w-full bg-white ">
-          <a
-            href="/"
+          <span
             className="bg-white block px-3 py-2 rounded-md text-base font-semibold text-left"
           >
             Log in
-         </a>
+         </span>
         </div>
         </div>
         )}

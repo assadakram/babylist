@@ -1,5 +1,6 @@
 import { Layout } from "../../components/layout/Layout";
-const Catageory = () => {
+import {Image} from "next/image"
+export function Catageory() {
 	return (
 		<>
 		<Layout>
@@ -12,19 +13,19 @@ const Catageory = () => {
       </div>
         <div className="flex flex-wrap justify-center gap-2 md:gap-10 my-8 md:mx-36 animate-fadeIn">
           <div className="bg-white flex flex-col justify-center place-items-center w-48 h-48 md:w-60 md:h-60 text-center rounded-lg border border-gray-300 cursor-pointer transition duration-300 hover:bg-gray-50 shadow-lg ">
-            <img src="/pregnancy.svg" alt=""/> 
+            <Image src="/pregnancy.svg" alt=""/> 
             <label className=" font-semibold">Pregnancy</label>
           </div>
 		  <div className="bg-white flex flex-col justify-center place-items-center  w-48 h-48 md:w-60 md:h-60 text-center rounded-lg border border-gray-300 cursor-pointer transition duration-300 hover:bg-gray-50 shadow-lg ">
-		   <img src="/adoption.svg" alt=""/> 
+		   <Image src="/adoption.svg" alt=""/> 
             <label className=" font-semibold">Adoption</label>
           </div>
 		  <div className="bg-white flex flex-col justify-center place-items-center  w-48 h-48 md:w-60 md:h-60 text-center rounded-lg border border-gray-300 cursor-pointer transition duration-300 hover:bg-gray-50 shadow-lg">
-		  <img src="/surrogacy.svg" alt=""/> 
+		  <Image src="/surrogacy.svg" alt=""/> 
             <label className="font-semibold">Surrogacy</label>
           </div>
 		  <div className="bg-white flex flex-col justify-center place-items-center  w-48 h-48 md:w-60 md:h-60 text-center rounded-lg border border-gray-300 cursor-pointer transition duration-300 hover:bg-gray-50 shadow-lg">
-		  <img src="/stilltrying.svg" alt=""/> 
+		  <Image src="/stilltrying.svg" alt=""/> 
             <label className=" font-semibold">Still trying</label>
           </div>
         </div>
@@ -34,5 +35,3 @@ const Catageory = () => {
 		</>
 	)
 }
-
-export default Catageory;
