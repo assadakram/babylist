@@ -1,4 +1,6 @@
 import Link from "next/link";
+import Image from "next/image";
+
 export function Cards() {
   return (
     <div className="flex flex-col place-items-center text-center mt-6">
@@ -37,7 +39,12 @@ export function Cards() {
             <a>
               <div className="bg-white flex flex-col justify-center place-items-center  w-48 h-48 md:w-60 md:h-60 text-center rounded-lg border border-gray-300 cursor-pointer transition duration-700 hover:bg-gray-100 shadow-lg ">
                 <div className="w-32 h-32">
-                  <img src="/shower.png" />
+                  <Image
+                    src="/shower.png"
+                    width="128px"
+                    height="170px"
+                    alt="Shower"
+                  />
                 </div>
                 <label className=" font-Josefin font-semibold">Baby</label>
               </div>
