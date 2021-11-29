@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import Link from "next/link";
 
 export function Header() {
-  const [state, setstate] = useState(false);
+  const [state, setState] = useState(false);
   return (
     <div className="animate-fadeIn">
       <div
@@ -28,7 +28,7 @@ export function Header() {
 
         <div
           className="cursor-pointer inline-flex md:hidden border border-gray-400 rounded-lg m-2 px-4 place-items-center font-medium text-lg "
-          onClick={() => setstate(!state)}
+          onClick={() => setState(!state)}
           aria-controls="mobile-menu"
           aria-expanded="false"
         >

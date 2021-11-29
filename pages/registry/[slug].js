@@ -1,5 +1,6 @@
 import { Layout } from "../../components/layout/Layout";
-const Catageory = () => {
+
+function Category() {
   return (
     <>
       <Layout>
@@ -34,6 +35,6 @@ const Catageory = () => {
       </Layout>
     </>
   );
-};
+}
 
-export default Catageory;
+export default Category;
