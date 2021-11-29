@@ -26,14 +26,12 @@ export function Header() {
           </Link>
         </div>
 
-        <div className="inline-flex md:hidden border border-gray-400 rounded-lg m-2 px-4 place-items-center font-medium text-lg ">
-          <div
-            onClick={() => setstate(!state)}
-            aria-controls="mobile-menu"
-            aria-expanded="false"
-          >
-            Menu
-          </div>
+        <div
+          className="cursor-pointer inline-flex md:hidden border border-gray-400 rounded-lg m-2 px-4 place-items-center font-medium text-lg "
+          onClick={() => setstate(!state)}
+          aria-controls="mobile-menu"
+          aria-expanded="false"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-5 w-5"
