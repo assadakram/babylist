@@ -30,7 +30,7 @@ export const Cards = () => {
           </div>
 		  <div className="bg-white flex flex-col justify-center place-items-center  w-60 h-60 text-center rounded-lg border border-gray-300 cursor-pointer transition duration-700 hover:bg-gray-100 ">
            <div className="w-32 h-32">
-			   <img src="/sho.png"/>
+			   <img src="/shower.png"/>
 		   </div>
             <label className=" font-Josefin font-semibold">Baby</label>
           </div>
