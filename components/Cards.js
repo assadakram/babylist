@@ -5,15 +5,15 @@ export function Cards() {
   return (
     <div className="flex flex-col place-items-center text-center  ">
       <div className="py-14">
-        <h2 className=" font-bold text-5xl">OK, let's set up your registry.</h2>
+        <h2 className=" font-bold text-3xl md:text-5xl">OK, let's set up your registry.</h2>
       </div>
       <div className="bg-gray-50 py-5 animate-fadeIn">
         <label className=" text-sm font-medium  font-Josefin  uppercase  tracking-widest  ">
           What's the occasion?
         </label>
-        <div className="flex flex-row gap-10 mx-36 my-8">
+        <div className="flex flex-wrap justify-center gap-2 md:gap-10 my-8 md:mx-36">
           <Link href={`/registry/${slug}`}>
-          <div className="bg-white flex flex-col justify-center place-items-center  w-60 h-60 text-center rounded-lg border border-gray-300 cursor-pointer transition duration-300 hover:bg-gray-100 shadow-lg  ">
+          <div className="bg-white flex flex-col justify-center place-items-center w-48 h-48 md:w-60 md:h-60 text-center rounded-lg border border-gray-300 cursor-pointer transition duration-300 hover:bg-gray-100 shadow-lg  ">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-32 w-32"
@@ -30,13 +30,14 @@ export function Cards() {
             </svg>
             <label className=" font-semibold">Wedding</label>
           </div>
-          <div className="bg-white flex flex-col justify-center place-items-center  w-60 h-60 text-center rounded-lg border border-gray-300 cursor-pointer transition duration-700 hover:bg-gray-100 ">
+          </Link>
+          <div className="bg-white flex flex-col justify-center place-items-center  w-48 h-48 md:w-60 md:h-60 text-center rounded-lg border border-gray-300 cursor-pointer transition duration-700 hover:bg-gray-100 shadow-lg ">
             <div className="w-32 h-32">
               <img src="/shower.png" />
             </div>
             <label className=" font-Josefin font-semibold">Baby</label>
           </div>
-          <div className="bg-white flex flex-col justify-center place-items-center  w-60 h-60 text-center rounded-lg border border-gray-300 cursor-pointer transition duration-700 hover:bg-gray-100 ">
+          <div className="bg-white flex flex-col justify-center place-items-center  w-48 h-48 md:w-60 md:h-60 text-center rounded-lg border border-gray-300 cursor-pointer transition duration-700 hover:bg-gray-100 shadow-lg ">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-32 w-32"

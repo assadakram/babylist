@@ -14,7 +14,7 @@ module.exports = {
         }
       },
       animation: {
-        fadeIn: 'fadeIn 0.5s forwards'
+        fadeIn: 'fadeIn 0.5s forwards',
       },
       fontFamily: {
         Josefin: "Josefin Sans, sans-serif",
