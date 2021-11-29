@@ -55,8 +55,7 @@ export function Header() {
         >
           <div className="px-2 pt-2 pb-3 w-full bg-white ">
             <Link href="/">
-              <a className="bg-white block px-3 py-2 rounded-md text-base font-semibold text-left"
-              >
+              <a className="bg-white block px-3 py-2 rounded-md text-base font-semibold text-left">
                 Log in
               </a>
             </Link>
